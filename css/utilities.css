@@ -1,35 +1,64 @@
 /* text color */
 .text-primary {
-    color: #28a745;
+  color: #28a745;
 }
-.text-secondary{
-    color: #0284d0;
+.text-secondary {
+  color: #0284d0;
 }
-.btn{
-    cursor: pointer;
-    display: inline-block;
-    padding: 10px 30px;
-    color: #fff;
-    background: #28a745;
-    border: none;
-    border-radius: 5px;
+/* buttons */
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 30px;
+  color: #fff;
+  background: #28a745;
+  border: none;
+  border-radius: 5px;
 }
-.btn:hover{
-    opacity: 0.9;
+.btn:hover {
+  opacity: 0.9;
 }
-.btn-primary{
-    background: #0284d0;
-    color: #fff;
+.btn-secondary, .bg-secondary {
+  background: #0284d0;
+  color: #fff;
 }
-.btn-primary{
-    background: #28a745;
-    color: #fff;
+.btn-primary, .bg-primary {
+  background: #28a745;
+  color: #fff;
 }
-.btn-dark{
-    background: #333;
-    color: #fff; 
+.btn-dark, .bg-dark {
+  background: #333;
+  color: #fff;
 }
-.btn-light{
-    background: #f4f4f4;
-    color: #333;
+.btn-light .bg-light {
+  background: #f4f4f4;
+  color: #333;
 }
+/* flex items */
+.flex-items {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+}
+.flex-items > div {
+  padding: 20px;
+}
+/* flex columns */
+.flex-columns .row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%
+}
+.flex-columns .column{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+.flex-columns .column .column-1,
+.flex-columns .column .column-1 {
+  height: 100%;
+} 
