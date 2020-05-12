@@ -135,4 +135,8 @@ img {
 .cases img:hover {
   filter: brightness(100%);
   transform: scale(1.02);
+  /* box-shadow: 2px 2px 2px black; */
+}
+.pic-8-fit {
+  height: 47.1%;
 }
