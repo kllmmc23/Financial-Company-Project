@@ -75,6 +75,7 @@ img {
     height: 100vh;
     position: relative;
     color: #fff;
+    /* background-attachment: fixed; */
 }
 
 .hero .content {
