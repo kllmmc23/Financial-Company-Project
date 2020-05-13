@@ -58,13 +58,13 @@
 }
 .flex-columns .row {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   width: 100%;
 }
 .flex-columns .column {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-basis: 100%;
   flex: 1;
 }
@@ -118,7 +118,7 @@
     max-height: 100%;
 }
 .flex-grid .column{
-    flex: 26%;
+    flex: 25%;
     max-width: 25%;
     padding: 0 4px;
 }
