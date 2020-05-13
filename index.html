@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="css/lightbox.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/utilities.css">
     <title>Welcome to EdgeLedger</title>
@@ -95,11 +96,14 @@
             </header>
             <div class="row">
                 <div class="column">
-                    <img src="img/cases/cases1.jpg" alt="case 1">
-                    <img src="img/cases/cases2.jpg" alt="case 2">
-                </div>
+                    <a href="img/cases/cases1.jpg" data-lightbox="cases" data-title="case 1">
+                        <img src="img/cases/cases1.jpg" alt="case 1">
+                    </a>
+                    <a href="img/cases/cases2.jpg" data-lightbox="cases" data-title="case 2">
+                        <img src="img/cases/cases2.jpg" alt="case 2">
+                    </a>                </div>
                 <div class="column">
-                    <img src="img/cases/cases3.jpg" alt="case 3">
+                    <img src="img/cases/cases3.jpg" alt="case 3" data-lightbox="cases">
                     <img src="img/cases/cases4.jpg" alt="case 4">
                 </div>
                 <div class="column">
@@ -210,6 +214,7 @@
             </div>
             <p>Copyright &copy; 2020 - EdgeLedger</p>
         </footer>
+        <script src="js/lightbox-plus-jquey.min.js"></script>
     </main>
 </body>
 
